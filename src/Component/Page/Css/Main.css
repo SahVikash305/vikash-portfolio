@@ -1,0 +1,81 @@
+.main {
+    height: 100vh;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5ee1775bc9545837ba788af9/1725567887232-GQN1L7ZYDL8JU4G8ILKX/Home+Page+Background.png?format=2500w');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.mainpage {
+    width: 100%;
+    height: 89vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.intro{
+    text-align: center;
+}
+
+.typewriter {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.img {
+    height: 200px;
+    border-radius: 50%;
+}
+
+.name {
+    color: chocolate;
+}
+
+.india {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.horizontal-line {
+    width: 50px;
+}
+
+.pragraph {
+    font-size: large;
+}
+
+@media screen and (max-width:854px) {
+    .mainpage {
+        flex-direction: column-reverse;
+        /* flex-wrap: wrap-reverse; */
+        /* align-items: center; */
+    }
+
+    .img{
+        height: 150px;
+    }
+
+    .typewriter{
+        font-size: 20px;
+    }
+
+    .name{
+        font-size: 20px;
+    }
+
+    .pragraph{
+        font-size: 17px;
+    }
+
+}
+@media screen and  (min-width:267px) and (max-width:386px) {
+    .main{
+        /* height: 100vh; */
+    }
+}
+
+
